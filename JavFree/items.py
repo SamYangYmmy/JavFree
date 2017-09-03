@@ -11,4 +11,13 @@ import scrapy
 class JavfreeItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
-    pass
+    id = scrapy.Field()
+    name = scrapy.Field()
+    view = scrapy.Field()
+    actress = scrapy.Field()
+    date = scrapy.Field()
+    time = scrapy.Field()
+    serie = scrapy.Field()
+    image_urls = scrapy.Field()
+    image = scrapy.Field()
+
